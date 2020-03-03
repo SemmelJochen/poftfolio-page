@@ -1,0 +1,426 @@
+  {
+    "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P/albums?offset=0&limit=20&include_groups=album,single&market=ES",
+    "items": [
+      {
+        "album_group": "album",
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5POvvDLBKRoc09XFywVAYl"
+        },
+        "href": "https://api.spotify.com/v1/albums/5POvvDLBKRoc09XFywVAYl",
+        "id": "5POvvDLBKRoc09XFywVAYl",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273bc2ca644eeb0868760247a7c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02bc2ca644eeb0868760247a7c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851bc2ca644eeb0868760247a7c",
+            "width": 64
+          }
+        ],
+        "name": "Seven",
+        "release_date": "2018-05-18",
+        "release_date_precision": "day",
+        "total_tracks": 7,
+        "type": "album",
+        "uri": "spotify:album:5POvvDLBKRoc09XFywVAYl"
+      },
+      {
+        "album_group": "single",
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/0lWCmTJYjBswVnPVxToap8"
+        },
+        "href": "https://api.spotify.com/v1/albums/0lWCmTJYjBswVnPVxToap8",
+        "id": "0lWCmTJYjBswVnPVxToap8",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d3a8fe742b8ca680838b3dfcadaec504fc103d51",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/2f19f82c93a04504c7a08afb4fff6cff592cab9d",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/41e526511cbcce6b37322cd4420e1188d57af6eb",
+            "width": 64
+          }
+        ],
+        "name": "Night Time",
+        "release_date": "2019-10-11",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "type": "album",
+        "uri": "spotify:album:0lWCmTJYjBswVnPVxToap8"
+      },
+      {
+        "album_group": "single",
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/1OUZ0guRZwKaJMMelSb09H"
+        },
+        "href": "https://api.spotify.com/v1/albums/1OUZ0guRZwKaJMMelSb09H",
+        "id": "1OUZ0guRZwKaJMMelSb09H",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273bea725e9b9628080f7093857",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02bea725e9b9628080f7093857",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851bea725e9b9628080f7093857",
+            "width": 64
+          }
+        ],
+        "name": "Bigfoot",
+        "release_date": "2019-04-19",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "type": "album",
+        "uri": "spotify:album:1OUZ0guRZwKaJMMelSb09H"
+      },
+      {
+        "album_group": "single",
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2SrCISUAu6RqB4p7Y9wNnQ"
+        },
+        "href": "https://api.spotify.com/v1/albums/2SrCISUAu6RqB4p7Y9wNnQ",
+        "id": "2SrCISUAu6RqB4p7Y9wNnQ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27316cca74f1a86cd483c942d04",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0216cca74f1a86cd483c942d04",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485116cca74f1a86cd483c942d04",
+            "width": 64
+          }
+        ],
+        "name": "Time()",
+        "release_date": "2019-03-18",
+        "release_date_precision": "day",
+        "total_tracks": 5,
+        "type": "album",
+        "uri": "spotify:album:2SrCISUAu6RqB4p7Y9wNnQ"
+      },
+      {
+        "album_group": "single",
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5Kgj17229650Yw1ltqAIed"
+        },
+        "href": "https://api.spotify.com/v1/albums/5Kgj17229650Yw1ltqAIed",
+        "id": "5Kgj17229650Yw1ltqAIed",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273e9110cf9442172d40ff87650",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02e9110cf9442172d40ff87650",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851e9110cf9442172d40ff87650",
+            "width": 64
+          }
+        ],
+        "name": "The Night",
+        "release_date": "2019-01-25",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "type": "album",
+        "uri": "spotify:album:5Kgj17229650Yw1ltqAIed"
+      },
+      {
+        "album_group": "single",
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3uRS7mdwp8RXzXvMRL0fla"
+        },
+        "href": "https://api.spotify.com/v1/albums/3uRS7mdwp8RXzXvMRL0fla",
+        "id": "3uRS7mdwp8RXzXvMRL0fla",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273086622f35c1b0308d9754e62",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02086622f35c1b0308d9754e62",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851086622f35c1b0308d9754e62",
+            "width": 64
+          }
+        ],
+        "name": "Moonlight",
+        "release_date": "2018-11-09",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "type": "album",
+        "uri": "spotify:album:3uRS7mdwp8RXzXvMRL0fla"
+      },
+      {
+        "album_group": "single",
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/32oJWpUiLpQdTmmG8YSBQF"
+            },
+            "href": "https://api.spotify.com/v1/artists/32oJWpUiLpQdTmmG8YSBQF",
+            "id": "32oJWpUiLpQdTmmG8YSBQF",
+            "name": "Dion Music",
+            "type": "artist",
+            "uri": "spotify:artist:32oJWpUiLpQdTmmG8YSBQF"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5UcKQ0E840zvAN9HQ6U6Dr"
+            },
+            "href": "https://api.spotify.com/v1/artists/5UcKQ0E840zvAN9HQ6U6Dr",
+            "id": "5UcKQ0E840zvAN9HQ6U6Dr",
+            "name": "Emma Lisk",
+            "type": "artist",
+            "uri": "spotify:artist:5UcKQ0E840zvAN9HQ6U6Dr"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/1VDPijt3kbiATcxSLiZcjB"
+        },
+        "href": "https://api.spotify.com/v1/albums/1VDPijt3kbiATcxSLiZcjB",
+        "id": "1VDPijt3kbiATcxSLiZcjB",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2733a1ba39050dcbd39ed7c8720",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e023a1ba39050dcbd39ed7c8720",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048513a1ba39050dcbd39ed7c8720",
+            "width": 64
+          }
+        ],
+        "name": "May We All Be Free Tonight (EMP Remix)",
+        "release_date": "2018-07-11",
+        "release_date_precision": "day",
+        "total_tracks": 1,
+        "type": "album",
+        "uri": "spotify:album:1VDPijt3kbiATcxSLiZcjB"
+      },
+      {
+        "album_group": "single",
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/74diuN1Ws10jZQnll2mKO4"
+        },
+        "href": "https://api.spotify.com/v1/albums/74diuN1Ws10jZQnll2mKO4",
+        "id": "74diuN1Ws10jZQnll2mKO4",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27319f1f87d053111311c2fa035",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0219f1f87d053111311c2fa035",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485119f1f87d053111311c2fa035",
+            "width": 64
+          }
+        ],
+        "name": "Break Free",
+        "release_date": "2018-06-22",
+        "release_date_precision": "day",
+        "total_tracks": 2,
+        "type": "album",
+        "uri": "spotify:album:74diuN1Ws10jZQnll2mKO4"
+      },
+      {
+        "album_group": "single",
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3FK7gXaxK53ARn5sSbgr5P"
+            },
+            "href": "https://api.spotify.com/v1/artists/3FK7gXaxK53ARn5sSbgr5P",
+            "id": "3FK7gXaxK53ARn5sSbgr5P",
+            "name": "Elements Music Production",
+            "type": "artist",
+            "uri": "spotify:artist:3FK7gXaxK53ARn5sSbgr5P"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4IkgODNRxEbuovt1YIij77"
+        },
+        "href": "https://api.spotify.com/v1/albums/4IkgODNRxEbuovt1YIij77",
+        "id": "4IkgODNRxEbuovt1YIij77",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2738ab1ab4833a9bae1195bd34c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e028ab1ab4833a9bae1195bd34c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048518ab1ab4833a9bae1195bd34c",
+            "width": 64
+          }
+        ],
+        "name": "Unknown",
+        "release_date": "2018-06-01",
+        "release_date_precision": "day",
+        "total_tracks": 2,
+        "type": "album",
+        "uri": "spotify:album:4IkgODNRxEbuovt1YIij77"
+      }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 9
+  }
