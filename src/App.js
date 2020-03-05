@@ -1,7 +1,7 @@
 import { createMuiTheme, ThemeProvider, responsiveFontSizes } from '@material-ui/core/styles';
 import React from 'react';
 import { CssBaseline } from '@material-ui/core';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavigationBar from './components/navbar/NavigationBar';
 import About from './components/sites/About';
 import NoMatch from './components/sites/NoMatch';
@@ -82,7 +82,7 @@ class App extends React.Component {
           <ThemeProvider theme={theme} >
             <CssBaseline />
             <NavigationBar mobile={this.state.mobileView} />
-            <Router basename={process.env.PUBLIC_URL}>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/photography" component={Photography} />
@@ -90,7 +90,7 @@ class App extends React.Component {
                 <Route path="/about" component={About} />
                 <Route component={NoMatch} />
               </Switch>
-            </Router>
+            </BrowserRouter>
           </ThemeProvider>
         </ParallaxProvider>
       </React.Fragment>
