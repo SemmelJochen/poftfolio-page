@@ -41,9 +41,9 @@ class NavigationBar extends Component {
 
     menuList() {
         return (
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <BrowserRouter basename={process.env.PUBLIC_URL} forceRefresh={true}>
                 <Link to='/'>
-                    <MenuItem style={{ color: "classes.palette.accent1Color" }} onClick={() => this.handleClose("/")}>
+                    <MenuItem style={{ color: "classes.palette.accent1Color" }}>
                         Home
                 </MenuItem>
                 </Link>
