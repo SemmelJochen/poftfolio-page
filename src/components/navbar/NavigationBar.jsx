@@ -42,10 +42,11 @@ class NavigationBar extends Component {
     menuList() {
         return (
             <BrowserRouter basename={process.env.PUBLIC_URL}>
-
-                <MenuItem style={{ color: "classes.palette.accent1Color" }} component={Link} to='/' onClick={() => this.handleClose("/")}>
-                    Home
+                <Link to='/'>
+                    <MenuItem style={{ color: "classes.palette.accent1Color" }} onClick={() => this.handleClose("/")}>
+                        Home
                 </MenuItem>
+                </Link>
                 <MenuItem component={Link} to='/collections' onClick={() => this.handleClose("/collections")}>
                     Collections
                 </MenuItem>
