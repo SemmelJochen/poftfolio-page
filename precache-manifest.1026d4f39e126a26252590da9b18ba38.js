@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70922e3d17b2102bc4d08bd27a400949",
+    "revision": "3c36e0464300cd327dfe7de89803bbd9",
     "url": "/poftfolio-page/index.html"
   },
   {
-    "revision": "288577d8154b02cfb558",
-    "url": "/poftfolio-page/static/css/main.5ecd60fb.chunk.css"
+    "revision": "5612b3c0696ce080de1b",
+    "url": "/poftfolio-page/static/css/main.ffed80a2.chunk.css"
   },
   {
     "revision": "eef6b7b4566f581048d5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poftfolio-page/static/js/2.9fcc30ab.chunk.js.LICENSE"
   },
   {
-    "revision": "288577d8154b02cfb558",
+    "revision": "5612b3c0696ce080de1b",
     "url": "/poftfolio-page/static/js/main.44815ed0.chunk.js"
   },
   {
@@ -78,5 +78,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6abbdbb00465b648afe9ad3be144a066",
     "url": "/poftfolio-page/static/media/IMG9.6abbdbb0.jpg"
+  },
+  {
+    "revision": "3ce1580b66db6742cecd4b41519fb5f1",
+    "url": "/poftfolio-page/static/media/Quicksand-Regular.3ce1580b.otf"
   }
 ]);
