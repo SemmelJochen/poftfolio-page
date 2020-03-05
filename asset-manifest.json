@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/poftfolio-page/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/poftfolio-page/static/js/main.ecd7929f.chunk.js",
-    "main.js.map": "/poftfolio-page/static/js/main.ecd7929f.chunk.js.map",
+    "main.js": "/poftfolio-page/static/js/main.44815ed0.chunk.js",
+    "main.js.map": "/poftfolio-page/static/js/main.44815ed0.chunk.js.map",
     "runtime-main.js": "/poftfolio-page/static/js/runtime-main.447cfd11.js",
     "runtime-main.js.map": "/poftfolio-page/static/js/runtime-main.447cfd11.js.map",
     "static/js/2.9fcc30ab.chunk.js": "/poftfolio-page/static/js/2.9fcc30ab.chunk.js",
     "static/js/2.9fcc30ab.chunk.js.map": "/poftfolio-page/static/js/2.9fcc30ab.chunk.js.map",
     "index.html": "/poftfolio-page/index.html",
-    "precache-manifest.63d5711a34261a8723c34812b3eae63a.js": "/poftfolio-page/precache-manifest.63d5711a34261a8723c34812b3eae63a.js",
+    "precache-manifest.2dfdf6d960c168998eaed25336bc9abd.js": "/poftfolio-page/precache-manifest.2dfdf6d960c168998eaed25336bc9abd.js",
     "service-worker.js": "/poftfolio-page/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/poftfolio-page/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.9fcc30ab.chunk.js.LICENSE": "/poftfolio-page/static/js/2.9fcc30ab.chunk.js.LICENSE",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.447cfd11.js",
     "static/js/2.9fcc30ab.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.ecd7929f.chunk.js"
+    "static/js/main.44815ed0.chunk.js"
   ]
 }
