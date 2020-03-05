@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar'
 import { withStyles } from '@material-ui/core/styles';
 import { Toolbar, Typography, MenuList, MenuItem, Button, Fade, Drawer, ClickAwayListener } from '@material-ui/core';
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { BrowserRouter, Link } from 'react-router-dom'
 import { withTheme } from '@material-ui/core/styles';
 
 const styles = theme => ({
@@ -41,7 +41,7 @@ class NavigationBar extends Component {
 
     menuList() {
         return (
-            <Router>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
 
                 <MenuItem style={{ color: "classes.palette.accent1Color" }} component={Link} to='/' onClick={() => this.handleClose("/")}>
                     Home
@@ -58,7 +58,7 @@ class NavigationBar extends Component {
                 <MenuItem component={Link} to='/about' onClick={() => this.handleClose("/about")}>
                     About Me
                 </MenuItem>
-            </Router>
+            </BrowserRouter>
         )
     }
 
@@ -87,13 +87,13 @@ class NavigationBar extends Component {
                         </Toolbar>
                     </AppBar>
 
-                    <Router>
-                        <Drawer id="mobile-view-menu" anchor="right" open={this.state.right} >
-                            <Fade>
-                                {this.menuList()}
-                            </Fade>
-                        </Drawer>
-                    </Router>
+
+                    <Drawer id="mobile-view-menu" anchor="right" open={this.state.right} >
+                        <Fade>
+                            {this.menuList()}
+                        </Fade>
+                    </Drawer>
+
                 </div>
             );
         } else {
