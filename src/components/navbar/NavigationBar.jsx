@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar'
 import { withStyles } from '@material-ui/core/styles';
 import { Toolbar, Typography, MenuList, MenuItem, Button, Fade, Drawer, ClickAwayListener } from '@material-ui/core';
-import { BrowserRouter, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { withTheme } from '@material-ui/core/styles';
 
 const styles = theme => ({
@@ -33,33 +33,32 @@ class NavigationBar extends Component {
         this.state = {
             mobileView: props.mobile,
             right: false,
+            isFlushed: false,
         }
     }
-    handleClose = (nav) => {
-        window.location.href = nav;
+    handleClose = () => {
+        window.location.reload();
     }
 
     menuList() {
         return (
-            <BrowserRouter basename={process.env.PUBLIC_URL} forceRefresh={true}>
-                <Link to='/'>
-                    <MenuItem style={{ color: "classes.palette.accent1Color" }}>
-                        Home
+            <>
+                <MenuItem component={Link} to='/'>
+                    Home
                 </MenuItem>
-                </Link>
-                <MenuItem component={Link} to='/collections' onClick={() => this.handleClose("/collections")}>
+                <MenuItem component={Link} to='/collections'>
                     Collections
                 </MenuItem>
-                <MenuItem component={Link} to='/music' onClick={() => this.handleClose("/music")}>
+                <MenuItem component={Link} to='/music'>
                     Music
                 </MenuItem>
-                <MenuItem component={Link} to='/photography' onClick={() => this.handleClose("/photography")}>
+                <MenuItem component={Link} to='/photography'>
                     Photography
                 </MenuItem>
-                <MenuItem component={Link} to='/about' onClick={() => this.handleClose("/about")}>
+                <MenuItem component={Link} to='/about'>
                     About Me
                 </MenuItem>
-            </BrowserRouter>
+            </>
         )
     }
 

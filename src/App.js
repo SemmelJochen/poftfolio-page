@@ -81,20 +81,20 @@ class App extends React.Component {
         <ParallaxProvider>
           <ThemeProvider theme={theme} >
             <CssBaseline />
-            <NavigationBar mobile={this.state.mobileView} />
             <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <NavigationBar mobile={this.state.mobileView} />
               <Switch>
                 <Route exact path="/">
-                  <Home />
+                  <Home/>
                 </Route>
                 <Route path="/photography">
-                  <Photography />
+                  <Photography/>
                 </Route>
                 <Route path="/music">
-                  <Music />
+                  <Music/>
                 </Route>
                 <Route path="/about">
-                  <About />
+                  <About/>
                 </Route>
                 <Route>
                   <NoMatch />
