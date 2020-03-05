@@ -8,24 +8,19 @@ import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-
-import IMG1 from './resources/photos/IMG1.jpg'
-import IMG2 from './resources/photos/IMG2.jpg'
-import IMG3 from './resources/photos/IMG3.jpg'
-import IMG4 from './resources/photos/IMG4.jpg'
-import IMG5 from './resources/photos/IMG5.jpg'
-import IMG6 from './resources/photos/IMG6.jpg'
-import IMG7 from './resources/photos/IMG7.jpg'
-import IMG8 from './resources/photos/IMG8.jpg'
-import IMG9 from './resources/photos/IMG9.jpg'
-import IMG10 from './resources/photos/IMG10.jpg'
-import IMG11 from './resources/photos/IMG11.jpg'
-import IMG12 from './resources/photos/IMG12.jpg'
-import IMG13 from './resources/photos/IMG13.jpg'
-import IMG14 from './resources/photos/IMG14.jpg'
-import IMG15 from './resources/photos/IMG15.jpg'
-
-
+import IMG1 from '../../resources/photos/IMG1.jpg'
+import IMG2 from '../../resources/photos/IMG2.jpg'
+import IMG3 from '../../resources/photos/IMG3.jpg'
+import IMG4 from '../../resources/photos/IMG4.jpg'
+import IMG5 from '../../resources/photos/IMG5.jpg'
+import IMG6 from '../../resources/photos/IMG6.jpg'
+import IMG7 from '../../resources/photos/IMG7.jpg'
+import IMG8 from '../../resources/photos/IMG8.jpg'
+import IMG9 from '../../resources/photos/IMG9.jpg'
+import IMG10 from '../../resources/photos/IMG10.jpg'
+import IMG11 from '../../resources/photos/IMG11.jpg'
+import IMG12 from '../../resources/photos/IMG12.jpg'
+import IMG13 from '../../resources/photos/IMG13.jpg'
 
 const drawerWidth = 240;
 

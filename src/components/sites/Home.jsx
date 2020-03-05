@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import PropTypes from 'prop-types';
 import { Typography, Card, CardMedia, Grid } from '@material-ui/core';
-import OtherImage from './resources/photos/IMG10.jpg';
+import OtherImage from '../../resources/photos/IMG10.jpg';
 import { ParallaxBanner, withController } from 'react-scroll-parallax'
 
 const styles = theme => ({
@@ -43,7 +43,7 @@ class Home extends Component {
                     onLoad={() => this.handleLoad()}
                     layers={[
                         {
-                            image: require("./resources/photos/IMG1-2.jpg"),
+                            image: require("../../resources/photos/IMG1-2.jpg"),
                             amount: 0.2,
                             
                         },

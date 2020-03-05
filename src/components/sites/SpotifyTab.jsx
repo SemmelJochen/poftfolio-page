@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
-import albums from './resources/jsonFiles/albums.json'
-import { Card, CardContent, Typography, CardMedia, Link, Tooltip, Zoom, Dialog } from '@material-ui/core';
+import albums from '../../resources/jsonFiles/albums.json'
+import { Card, CardContent, Typography, CardMedia, Link, Tooltip, Zoom } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 

@@ -2,12 +2,12 @@ import { createMuiTheme, ThemeProvider, responsiveFontSizes } from '@material-ui
 import React from 'react';
 import { CssBaseline } from '@material-ui/core';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import NavigationBar from './NavigationBar';
-import About from './About';
-import NoMatch from './NoMatch';
-import Music from './Music';
-import Photography from './Photography';
-import Home from './Home';
+import NavigationBar from './components/navbar/NavigationBar';
+import About from './components/sites/About';
+import NoMatch from './components/sites/NoMatch';
+import Music from './components/sites/Music';
+import Photography from './components/sites/Photography';
+import Home from './components/sites/Home';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 
@@ -82,7 +82,7 @@ class App extends React.Component {
           <ThemeProvider theme={theme} >
             <CssBaseline />
             <NavigationBar mobile={this.state.mobileView} />
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/photography" component={Photography} />
