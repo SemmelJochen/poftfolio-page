@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import albums from '../../resources/jsonFiles/albums.json'
-import { Card, CardContent, Typography, CardMedia, Link, Tooltip, Zoom } from '@material-ui/core';
+import { Card, CardContent, Typography, CardMedia, Link, Tooltip } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 
@@ -32,7 +32,7 @@ class Music extends Component {
         this.state = {
             elements: undefined,
         };
-        console.log(albums.items)
+        //console.log(albums.items)
     }
     handleClick = () => {
         //alert("click")
@@ -45,7 +45,7 @@ class Music extends Component {
                 {albumItems.map((album) => (
                     <Fragment key={album.id}>
                         <Link onClick={() => this.handleClick()} underline="none">
-                            <Tooltip enterDelay={500} transitionCompontnet={Zoom} title={"Listen to " + album.name} arrow>
+                            <Tooltip enterDelay={500} title={"Listen to " + album.name} arrow>
                                 <Card raised className={classes.card} >
                                     <CardMedia
                                         className={classes.cover}

@@ -66,7 +66,7 @@ export default function FullWidthTabs() {
 
     return (
         <div className={classes.root}>
-            <AppBar elevation={0} className={classes.tabBar} position="static" color="transparent">
+            <AppBar elevation={0} className={classes.tabBar} position="static" color="inherit">
                 <Tabs
                     variant="fullWidth"
                     value={value}

@@ -32,7 +32,7 @@ var theme = createMuiTheme({
   overrides: {
     MuiTab: {
       wrapper: {
-        flexDirection:'row',
+        flexDirection: 'row',
       },
     },
   },
@@ -51,7 +51,6 @@ class App extends React.Component {
   }
 
   updateWidth = () => {
-    console.log(window.innerWidth)
     const width = window.innerWidth
     var mobileView = false;
     if (width < 850) {
@@ -76,6 +75,7 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(process.env.PUBLIC_URL)
     return (
       <React.Fragment>
         <ParallaxProvider>
@@ -84,11 +84,21 @@ class App extends React.Component {
             <NavigationBar mobile={this.state.mobileView} />
             <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/photography" component={Photography} />
-                <Route path="/music" component={Music} />
-                <Route path="/about" component={About} />
-                <Route component={NoMatch} />
+                <Route exact path="/">
+                  <Home />
+                </Route>
+                <Route path="/photography">
+                  <Photography />
+                </Route>
+                <Route path="/music">
+                  <Music />
+                </Route>
+                <Route path="/about">
+                  <About />
+                </Route>
+                <Route>
+                  <NoMatch />
+                </Route>
               </Switch>
             </BrowserRouter>
           </ThemeProvider>
