@@ -10,6 +10,7 @@ const useStyles = makeStyles({
         alignItems: "center",
         justifyContent: "center",
         flex: 1,
+        
     }
 })
 export default function NoMatch(props) {

@@ -44,7 +44,8 @@ function a11yProps(index) {
 const useStyles = makeStyles(theme => ({
     root: {
         width: "100%",
-        height: "40px"
+        height: "40px",
+        paddingTop: "80px",
     },
     tabBar:  {
 
@@ -75,7 +76,7 @@ export default function FullWidthTabs() {
                 >
                     <Tab icon={<SpotifyIcon/>} label="Spotify" {...a11yProps(0)} />
                     <Tab icon={<SoundCloudIcon/>} label="Soundcloud" {...a11yProps(1)} />
-                    <Tab label="YouTube" {...a11yProps(2)} />
+                    <Tab label="Instagram" {...a11yProps(2)} />
                 </Tabs>
             </AppBar>
             <SwipeableViews

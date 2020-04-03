@@ -9,6 +9,7 @@ import Music from './components/sites/Music';
 import Photography from './components/sites/Photography';
 import Home from './components/sites/Home';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import Websites from './components/sites/Websites';
 
 
 var theme = createMuiTheme({
@@ -26,7 +27,7 @@ var theme = createMuiTheme({
   },
   typography: {
     fontFamily: [
-      'Quicksand',
+      'TypewriterScribbled',
     ].join(','),
   },
   overrides: {
@@ -94,6 +95,9 @@ class App extends React.Component {
                 </Route>
                 <Route path="/about">
                   <About/>
+                </Route>
+                <Route path="/websites">
+                  <Websites/>
                 </Route>
                 <Route>
                   <NoMatch />

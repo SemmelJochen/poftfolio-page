@@ -2,17 +2,23 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar'
 import { withStyles } from '@material-ui/core/styles';
-import { Toolbar, Typography, MenuList, MenuItem, Button, Fade, Drawer, ClickAwayListener } from '@material-ui/core';
+import { Toolbar, Typography, MenuList, Button, Fade, Drawer, ClickAwayListener } from '@material-ui/core';
 import { Link } from 'react-router-dom'
 import { withTheme } from '@material-ui/core/styles';
-
+import JKLogo from '../../resources/photos/logo/JKlogo.png';
 const styles = theme => ({
     menuBar: {
-        position: "static",
+        position: "fixed",
         paddingBottom: theme.spacing(1),
         paddingTop: theme.spacing(1),
         color: "#000000", //override appbar text color
-        height: "80px"
+        height: "80px",
+        display: "flex",
+        flexDirection: "row",
+    },
+    button: {
+        textTransform: "none",
+        fontSize: "medium"
     },
     root: {
         flexGrow: 1,
@@ -23,7 +29,12 @@ const styles = theme => ({
         flexGrow: 1,
     },
     menuList: {
-        display: 'flex'
+        alignItems: 'flex-end',
+        marginLeft: theme.spacing(2),
+    },
+    logo: {
+        alignItems: 'flex-start',
+        marginRight: theme.spacing(2),
     },
 });
 
@@ -41,24 +52,25 @@ class NavigationBar extends Component {
     }
 
     menuList() {
+        const { classes } = this.props;
         return (
-            <>
-                <MenuItem component={Link} to='/'>
+            <div>
+                <Button className={classes.button} component={Link} to='/'>
                     Home
-                </MenuItem>
-                <MenuItem component={Link} to='/collections'>
-                    Collections
-                </MenuItem>
-                <MenuItem component={Link} to='/music'>
+                </Button>
+                <Button className={classes.button} component={Link} to='/websites'>
+                    Websites
+                </Button>
+                <Button className={classes.button} component={Link} to='/music'>
                     Music
-                </MenuItem>
-                <MenuItem component={Link} to='/photography'>
+                </Button>
+                <Button className={classes.button} component={Link} to='/photography'>
                     Photography
-                </MenuItem>
-                <MenuItem component={Link} to='/about'>
+                </Button>
+                <Button className={classes.button} component={Link} to='/about'>
                     About Me
-                </MenuItem>
-            </>
+                </Button>
+            </div>
         )
     }
 
@@ -76,9 +88,12 @@ class NavigationBar extends Component {
                 <div className={classes.root} >
                     <AppBar className={classes.menuBar} style={{ background: 'transparent', boxShadow: 'none' }}>
                         <Toolbar>
-                            <Typography variant="h3" className={classes.title}>
-                                Josua Kupski
-                        </Typography>
+                            <img
+                                className={classes.logo}
+                                src={JKLogo}
+                                alt="logo"
+                                width="120px" height="auto"
+                            />
                             <ClickAwayListener onClickAway={this.toggleDrawer(false)}>
                                 <Button aria-controls="mobile-view-menu" aria-haspopup="true" onClick={this.toggleDrawer(true)}>
                                     <Typography variant="button"> Menu</Typography>
@@ -102,9 +117,12 @@ class NavigationBar extends Component {
                 <div className={classes.root}>
                     <AppBar className={classes.menuBar} style={{ background: 'transparent', boxShadow: 'none' }}>
                         <Toolbar>
-                            <Typography variant="h3" className={classes.title}>
-                                Josua Kupski
-                        </Typography>
+                            <img
+                                className={classes.logo}
+                                src={JKLogo}
+                                alt="logo"
+                                width="120px" height="auto"
+                            />
                             <MenuList className={classes.menuList}>
                                 {this.menuList()}
                             </MenuList>

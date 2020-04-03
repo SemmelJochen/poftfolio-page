@@ -35,6 +35,7 @@ class Home extends Component {
                 justifyContent: 'center',
                 alignItems: 'center',
                 alignContent: 'center',
+                paddingTop: "80px",
             }}>
 
 
